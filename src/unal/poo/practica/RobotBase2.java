@@ -25,15 +25,16 @@ public class RobotBase2
                 move(1);
             }
             girar(2);
-            for (int i = 0; i < 5; i++) {
+            for (int i = 0; i < 4; i++) {
                 move(1);
                 dejar();
             }
             move(1);
             girar(3);
-            for (int i = 0; i < 5; i++) {
-                dejar();
+            for (int i = 0; i < 4; i++) {
+                
                 move(1);
+                dejar();
             }
 	}
         public static void girar(int giros){
